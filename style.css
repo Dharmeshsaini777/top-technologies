@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 10px 10px;
+    /* color: white; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container img{
+    width: 15%;
+    position: relative;
+    left: -100px;
+    border-radius: 400px;
+}
+nav ul li{
+    position: relative;
+    left: -200px;
+padding: 18px 65px;
+    display: inline-block;
+}
+nav ul li button{
+    color: wheat;
+    border-radius: 10px;
+}
+nav ul li button:hover{
+    background-color: #621BF0;
+    transition: 0.5s;
+}
+
+/* Slider */
+
+.slide{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+#slider-container {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+.slider-box {
+    z-index: 9999;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1100px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.slider{
+   
+    position: relative;
+  /* width: 1000px; */
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.prevBtn,
+.nextBtn{
+    cursor: pointer;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+.prevBtn{
+    left: 0;
+}
+
+.nextBtn{
+    right: 0;
+}
+
+
+/* -------------------content--------------- */
+.metaverse{
+    height: 140vh;
+    padding: 20px 20px;
+    /* border: 1px solid wheat; */
+    position: relative;
+    top: 200px;
+    background-color: #000000;
+}
+.metaverse h1{
+    font-size: 70px;
+    text-align: left;
+    color: #621BF0;
+}
+
+.metaverse p{
+    justify-content: center;
+    /* width: 100%; */
+    padding: 10px ;
+    font-size: 20px;
+    color:rgb(86, 88, 69) ;
+    width: 700px;
+    /* border: 1px solid wheat; */
+    text-align: justify;
+border-radius: 15px;
+}
+.metaverse1{
+    height: 120vh;
+    padding: 20px 20px;
+    /* border: 1px solid wheat; */
+    position: relative;
+    top: -130px;
+    background-color: #000000;
+}
+.metaverse1 h1{
+    font-size: 70px;
+    text-align: left;
+    color: #621BF0;
+}
+.metaverse1 p{
+    justify-content: center;
+    /* width: 100%; */
+    padding: 10px ;
+    font-size: 20px;
+    color:rgb(86, 88, 69) ;
+    width: 700px;
+    /* border: 1px solid wheat; */
+    text-align: justify;
+border-radius: 15px;
+}
+
+.metaverse2{
+    height: 140vh;
+    padding: 20px 20px;
+    /* border: 1px solid wheat; */
+    position: relative;
+    top: -300px;
+    background-color: #000000;
+}
+.metaverse2 h1{
+    font-size: 70px;
+    text-align: left;
+    color: #621BF0;
+}
+.metaverse2 p{
+    justify-content: center;
+    /* width: 100%; */
+    padding: 10px ;
+    font-size: 20px;
+    color:rgb(86, 88, 69) ;
+    width: 700px;
+    /* border: 1px solid wheat; */
+    text-align: justify;
+border-radius: 15px;
+}
+
+.metaverse3{
+    height: 140vh;
+    padding: 20px 20px;
+    /* border: 1px solid wheat; */
+    position: relative;
+    top: -700px;
+    background-color: #000000;
+}
+.metaverse3 h1{
+    font-size: 70px;
+    text-align: left;
+    color: #621BF0;
+}
+.metaverse3 p{
+    justify-content: center;
+    /* width: 100%; */
+    padding: 10px ;
+    font-size: 20px;
+    color:rgb(86, 88, 69) ;
+    width: 700px;
+    /* border: 1px solid wheat; */
+    text-align: justify;
+border-radius: 15px;
+}
+#btnn a{
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid;
+    position: relative;
+    right: -710px;
+    padding: 8px 30px;
+    border-radius: 20px;
+    color: rgb(243, 10, 10);
+}
+#btnn a:hover{
+    background-color: rgb(9, 66, 80);
+}
+button{
+    background: black;
+    border: none;
+}
+#vid1{
+    /* border: 1px solid red; */
+    position: relative;
+    right: -800px;
+    top: -700px;
+    height: 400px;
+    border-radius: 15px;
+display: block;
+}
+#vid2{
+    /* border: 1px solid red; */
+    position: relative;
+    right: -800px;
+    top: -900px;
+    height: 400px;
+    border-radius: 15px;
+display: block;
+}
+#vid3{
+    /* border: 1px solid red; */
+    position: relative;
+    right: -800px;
+    top: -1200px;
+    height: 400px;
+    border-radius: 15px;
+display: block;
+}
+#vid4{
+    /* border: 1px solid red; */
+    position: relative;
+    right: -800px;
+    top: -1600px;
+    height: 400px;
+    border-radius: 15px;
+display: block;
+}
